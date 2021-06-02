@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <header class="header">
+            {{ page.header }}
+            <nav class="menu">
+                {{ page.menu }}
+            </nav>
+
+        </header>
+        {% if page.highlighted %}
+      <div class="highlighted">
+          {{ page.highlighted }}
+      </div>
+    {% endif %}
+        <main class="main">
+            <div class="content" id="abcde">
+                {{ page.content }}
+            </div>
+        </main>
+
+        <footer>
+            {{ page.footer }}
+        </footer>
+    </body>
+</html>

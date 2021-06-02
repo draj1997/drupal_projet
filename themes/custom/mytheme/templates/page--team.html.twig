@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <header class="header">
+            {{ page.header }}
+            <nav class="menu">
+                {{ page.menu }}
+            </nav>
+
+        </header>
+        {% if page.highlighted %}
+      <div class="highlighted">
+          {{ page.highlighted }}
+      </div>
+    {% endif %}
+<div class="myteamisgood" >
+    <h1 class="myteam">Our Team at Franklin's</h1>
+    <p class="teamdesc">We're small, but mighty. Franklin's Fine Dining has been a family-owned and run business since the dirty thirties, and we're proud of it! When you get these three together, you never know what can happen. But you can count on one thing: The best food you've ever had. Ever.</p>
+</div>      
+  <main class="main">
+            <div class="content">
+                {{ page.content }}
+            </div>
+        </main>
+    
+
+        <footer>
+            {{ page.footer }}
+        </footer>
+    </body>
+</html>

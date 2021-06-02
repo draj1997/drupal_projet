@@ -1,0 +1,19 @@
+name: My theme
+description: A simple theme
+type: theme
+version: VERSION
+core: 8.x
+package: custom
+screenshot: mytheme.png
+
+regions:
+  header: Header
+  menu: Main menu
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
+
+libraries:
+  mytheme/styling  
